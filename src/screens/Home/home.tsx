@@ -1,6 +1,6 @@
 import React from "react";
 
-import { View, Text, Image, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView, StatusBar } from "react-native";
 import { MenuHeader } from "../../components/Header/header";
 import { EstadoPerfil } from "../../components/Estado-perfil/estado-perfil";
 import { Feed } from "../../components/feed/feed";
@@ -18,16 +18,16 @@ import {
 export const Home = () => {
   return (
     <ScrollView>
-      <View style={{ padding: 20 }}>
+      <View style={{ padding: 20, top: 30 }}>
         <MenuHeader />
         <EstadoPerfil />
         <Feed
-          imageFeed={imageFeed}
+          imageFeed={ItemPerfil2}
           imagePerfil={ImagenPerfil}
           nombre="Victor"
         />
         <Feed
-          imageFeed={ItemPerfil2}
+          imageFeed={imageFeed}
           imagePerfil={ImagenPerfil2}
           nombre="Carlos"
         />

@@ -4,6 +4,7 @@ import EntypoIcon from "react-native-vector-icons/Entypo";
 import AntDesignIcon from "react-native-vector-icons/AntDesign";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import Feather from "react-native-vector-icons/Feather";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 type FeedProps = {
   nombre: any;
   imagePerfil?: string;
@@ -58,10 +59,10 @@ export const Feed = (props: FeedProps) => {
             alignContent: "center",
           }}>
           <View style={{ flexDirection: "row", alignItems: "center" }}>
-            <AntDesignIcon
-              name={"hearto"}
+            <FontAwesome
+              name={"heart"}
               size={25}
-              style={{ marginRight: 10 }}
+              style={{ marginRight: 10, color: "#d70000" }}
             />
             <AntDesignIcon
               name={"message1"}
