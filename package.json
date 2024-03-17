@@ -24,8 +24,10 @@
     "react": "18.2.0",
     "react-native": "0.73.4",
     "react-native-swiper": "^1.6.0",
+    "react-native-swiper-flatlist": "^3.2.3",
     "react-native-toast-message": "^2.2.0",
-    "react-native-vector-icons": "^10.0.3"
+    "react-native-vector-icons": "^10.0.3",
+    "swiper": "^11.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
