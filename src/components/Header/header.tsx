@@ -2,6 +2,7 @@ import React from "react";
 
 import { View, Text, Image } from "react-native";
 import Icon from "react-native-vector-icons/AntDesign";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export const MenuHeader = () => {
   return (
@@ -21,7 +22,7 @@ export const MenuHeader = () => {
             <Icon name="hearto" size={28} />
           </View>
           <View>
-            <Icon name="message1" size={28} />
+            <MaterialCommunityIcons name="facebook-messenger" size={28} />
           </View>
         </View>
       </View>

@@ -1,7 +1,6 @@
 import { Image, Text, View } from "react-native";
 import React from "react";
 import EntypoIcon from "react-native-vector-icons/Entypo";
-import AntDesignIcon from "react-native-vector-icons/AntDesign";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import Feather from "react-native-vector-icons/Feather";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
@@ -31,7 +30,11 @@ export const Feed = (props: FeedProps) => {
             alignItems: "center",
           }}>
           <Image
-            style={{ borderRadius: 100, width: 40, height: 40 }}
+            style={{
+              borderRadius: 100,
+              width: 40,
+              height: 40,
+            }}
             source={imagePerfil}
           />
           <Text style={{ marginLeft: 10, fontSize: 14 }}>{nombre}</Text>
@@ -40,10 +43,7 @@ export const Feed = (props: FeedProps) => {
       </View>
       {/* PUBLICACION O IMAGEN DEL FEED */}
       <View>
-        <Image
-          style={{ width: "100%", height: 500, borderRadius: 10 }}
-          source={imageFeed}
-        />
+        <Image style={{ width: "100%", height: 500 }} source={imageFeed} />
       </View>
       {/* ICONOS DE BAJO DEL FEED */}
       <View
@@ -64,8 +64,8 @@ export const Feed = (props: FeedProps) => {
               size={25}
               style={{ marginRight: 10, color: "#d70000" }}
             />
-            <AntDesignIcon
-              name={"message1"}
+            <Feather
+              name={"message-circle"}
               size={25}
               style={{ marginRight: 10 }}
             />
