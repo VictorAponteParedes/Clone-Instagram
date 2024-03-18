@@ -6,7 +6,7 @@ import Swiper from "react-native-swiper";
 
 export const EstadoPerfil = () => {
   const usuarios = [
-    { nombre: "Victor", imagen: require("../../img/perfil_prin.jpeg") },
+    { nombre: "Victor", imagen: require("../../img/perfilGit.jpeg") },
     { nombre: "Lorena", imagen: require("../../img/perfil.jpg") },
     { nombre: "Carlos", imagen: require("../../img/perfil_2.jpg") },
     { nombre: "Maria", imagen: require("../../img/perfil_3.jpg") },

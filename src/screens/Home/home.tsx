@@ -7,6 +7,7 @@ import { Feed } from "../../components/feed/feed";
 import { CustomBottomMenu } from "../../components/MenuNavegacion/menuNavegacion";
 import {
   imageFeed,
+  ItemPerfilGit,
   ImagenPerfil,
   ImagenPerfil2,
   ImagenPerfil3,
@@ -14,6 +15,7 @@ import {
   ItemPerfil2,
   ItemPerfil3,
   ItemPerfil4,
+  ItemReact,
 } from "../../mock/mock";
 
 export const Home = () => {
@@ -28,8 +30,8 @@ export const Home = () => {
           <MenuHeader />
           <EstadoPerfil />
           <Feed
-            imageFeed={ItemPerfil2}
-            imagePerfil={ImagenPerfil}
+            imageFeed={ItemReact}
+            imagePerfil={ItemPerfilGit}
             nombre="Victor"
           />
           <Feed

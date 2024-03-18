@@ -3,7 +3,7 @@ import { View, TouchableOpacity, Image, Text } from "react-native";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import Feather from "react-native-vector-icons/Feather";
 import Octicons from "react-native-vector-icons/Octicons";
-import { ImagenPerfil } from "../../mock/mock";
+import { ItemPerfilGit } from "../../mock/mock";
 
 export const CustomBottomMenu = ({ onSelect }) => {
   return (
@@ -38,7 +38,7 @@ export const CustomBottomMenu = ({ onSelect }) => {
       <TouchableOpacity onPress={() => onSelect("cog")}>
         <Image
           style={{ borderRadius: 100, width: 35, height: 35 }}
-          source={ImagenPerfil}
+          source={ItemPerfilGit}
         />
       </TouchableOpacity>
     </View>
